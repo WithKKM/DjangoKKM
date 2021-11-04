@@ -2,18 +2,17 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>About me | 강민이의 웹사이트!!</title>
-    <link href="./practice.css" rel="stylesheet" type="text/css">
+    <link href="./practice.css" rel="stylesheet" type="text/css" />
     <script type="text/javascript" src="./what_time_is_it.js"></script>
 
-    <link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css" type="text/css">
+    <link rel="stylesheet" href="./bootstrap4/css/bootstrap.min.css" type="text/css" />
 </head>
 
 <body>
-
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
             <a class="navbar-brand" href="./index.html">Do It Django</a>
@@ -49,19 +48,40 @@
     </nav>
 
     <div class="container">
+        <div class="row">
+            <div class="col-9">
+                <h1>About me</h1>
+                <h2>안산사람 김강민입니다.</h2>
 
-        <h1>About me</h1>
-        <h2>안산사랑 김강민입니다.</h2>
+                <p>훕스 매 힌디 빠르따 훙</p>
+                <p>이건 저희 집 고양이입니다.</p>
+                <p>이름은 연두 올해로 7살</p>
+                <a href="./index.html">첫 화면으로 가기</a>
 
-        <p>훕스 매 힌디 빠르따 훙</p>
-        <p>이건 저희 집 고양이입니다.</p>
-        <p>이름은 연두 올해로 7살</p>
-        <a href="./index.html">첫 화면으로 가기</a>
+                <button onclick="whatTimeisIt()">현재시각</button>
+                <hr />
+            </div>
+            <div class="col-3">
+                <img src="./images/KakaoTalk_20210625_020411226.jpg" class="img-fluid" />
+            </div>
+        </div>
+    </div>
 
-        <button onclick="whatTimeisIt()">현재시각</button>
-        <hr />
-        <img src="./images/KakaoTalk_20210625_020411226.jpg" width="600px" alt="">
-
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h2>Portfolio</h2>
+            </div>
+            <div class="col-sm col-lg-6 bg-info">
+                <img src="./images/imageA.jpg" class="img-fluid" />
+            </div>
+            <div class="col-sm col-lg-3 bg-secondary">
+                <img src="./images/imageB.jpg" class="img-fluid" />
+            </div>
+            <div class="col-sm col-lg-3 bg-warning">
+                <img src="./images/imageC.jpg" class="img-fluid" />
+            </div>
+        </div>
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
